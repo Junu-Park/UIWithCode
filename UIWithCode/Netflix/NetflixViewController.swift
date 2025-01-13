@@ -115,11 +115,11 @@ class NetflixViewController: UIViewController {
         }
     }
     
-    @objc func textFieldDidEndOnExit(_ sender: UITextField) {
+    @objc func textFieldDidEndOnExit() {
         view.endEditing(true)
     }
     
-    @objc func buttonTapped(_ sender: UIButton) {
+    @objc func buttonTapped() {
         dismiss(animated: true)
     }
 }
